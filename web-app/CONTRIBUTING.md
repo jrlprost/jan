@@ -78,12 +78,6 @@ const result = await invoke('command_name', { param: 'value' })
 const ExpensiveComponent = React.memo(({ data }) => {
   return <div>{processData(data)}</div>
 })
-
-// Debounce frequent updates
-const debouncedValue = useDebounce(searchTerm, 300)
-
-// Virtual scrolling for large lists
-import { VariableSizeList } from 'react-window'
 ```
 
 ## Debugging
